@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="mvn_framework_testing.RandomResult">
+        <methods>
+          <include name="testcase4"/>
+          <include name="testcase7"/>
+          <include name="testcase9"/>
+          <include name="testcase1"/>
+        </methods>
+      </class> <!-- mvn_framework_testing.RandomResult -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
